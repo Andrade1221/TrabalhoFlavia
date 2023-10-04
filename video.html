@@ -7,21 +7,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/x-icon" href="Icon.png">
   <link rel="stylesheet" href="styles.css">
-  <title>Vídeo</title>
+  <title>Vídeo - Beleza e Mídia</title>
 </head>
 <body>
 
   <div class="video-container">
-    <!-- Vídeo -->
-    <video controls class="video-player">
-      <source src="video.mp4" type="video/mp4">
-      Seu navegador não suporta o elemento de vídeo.
-    </video>
+    <!-- Incorporando o vídeo do YouTube usando a API -->
+    <iframe id="youtube-frame" width="560" height="315" src="https://www.youtube.com/embed/GTiBuVb2nZ0?autoplay=1&fs=1" frameborder="0" allowfullscreen></iframe>
   </div>
-
+  
   <!-- Botão para voltar à Home -->
   <button onclick="goToHome()" class="back-button">Voltar para a Home</button>
 
+  <script src="https://www.youtube.com/iframe_api"></script>
   <script src="script.js"></script>
 </body>
 </html>
