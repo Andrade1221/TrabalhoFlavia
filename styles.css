@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 50px;
+  background-image: url('fundo.png'); /* Caminho para a imagem de fundo */
+  background-size: cover; /* Ajusta o tamanho da imagem de fundo para cobrir todo o corpo */
+  background-repeat: no-repeat; /* Evita a repetição da imagem de fundo */
+  background-attachment: fixed; /* Fixa a imagem de fundo para que ela não role com a página */
+  zoom: 90%; /* Define o zoom inicial para 150% */
+}
+
+/* Adiciona uma faixa de fundo atrás de h1 */
+h1 {
+  background-color: rgba(0, 0, 0, 0.5); /* Cor de fundo semi-transparente (preto) */
+  padding: 10px; /* Espaçamento interno */
+  color: white; /* Cor do texto */
+}
+
+p {
+  background-color: rgba(255, 255, 255, 0.5); /* Cor de fundo semi-transparente (preto) */
+  padding: 10px; /* Espaçamento interno */
+  color: rgb(0, 0, 0); /* Cor do texto */
+  zoom: 150%; /* Define o zoom inicial para 150% */
+}
+/* Adiciona uma faixa de fundo atrás de h2 */
+h2 {
+  background-color: rgba(0, 0, 0, 0.5); /* Cor de fundo semi-transparente (preto) */
+  padding: 10px; /* Espaçamento interno */
+  color: white; /* Cor do texto */
+}
+
+/* Ajusta as cores dos botões */
+a {
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border: 2px solid #333; /* Borda sólida de 2px (cor mais escura) */
+  display: inline-block;
+  text-align: center;
+  background-color: #fff; /* Cor de fundo dos botões */
+  color: #333; /* Cor do texto dos botões */
+}
+
+a:hover {
+  background-color: #333; /* Cor de fundo ao passar o mouse */
+  color: #fff; /* Cor do texto ao passar o mouse */
+}
+
+/* Estilizações para o vídeo */
+.video-container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  zoom: 67%;
+}
+
+.video-player {
+  width: 100%;
+}
+
+/* Estilizações para o botão */
+.back-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 20px;
+  border: 2px solid #333;
+  display: inline-block;
+  text-align: center;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+}
+
+.back-button:hover {
+  background-color: #333;
+  color: #fff;
+}
